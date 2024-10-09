@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operações Aritméticas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Operações Aritméticas entre Dois Números</h1>
+        <form id="formulario">
+            <div class="input-group">
+                <label for="numero1">Número 1:</label>
+                <input type="number" id="numero1" name="numero1" required>
+            </div>
+            <div class="input-group">
+                <label for="numero2">Número 2:</label>
+                <input type="number" id="numero2" name="numero2" required>
+            </div>
+            <button type="button" class="btn" onclick="calcularOperacoes()">Calcular Operações</button>
+        </form>
+        <div id="resultado" class="resultado"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
